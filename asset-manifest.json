@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/React-Assigment-02/static/css/main.72c65d06.css",
+    "main.js": "/React-Assigment-02/static/js/main.102d3f92.js",
+    "static/js/453.6a17e5ba.chunk.js": "/React-Assigment-02/static/js/453.6a17e5ba.chunk.js",
+    "index.html": "/React-Assigment-02/index.html",
+    "main.72c65d06.css.map": "/React-Assigment-02/static/css/main.72c65d06.css.map",
+    "main.102d3f92.js.map": "/React-Assigment-02/static/js/main.102d3f92.js.map",
+    "453.6a17e5ba.chunk.js.map": "/React-Assigment-02/static/js/453.6a17e5ba.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72c65d06.css",
+    "static/js/main.102d3f92.js"
+  ]
+}
