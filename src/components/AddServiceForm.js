@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-// AddServiceForm Component
 function AddServiceForm({ addService, isEditing, handleUpdate, serviceData }) {
   const [name, setName] = useState(serviceData ? serviceData.name : "");
   const [description, setDescription] = useState(
@@ -23,9 +22,9 @@ function AddServiceForm({ addService, isEditing, handleUpdate, serviceData }) {
   return (
     <form class="max-w-sm mx-auto my-5 border-2 border-black p-5 rounded bg-gradient-to-tr from-red-200 to-emerald-100" onSubmit={handleSubmit}>
       <div class="mb-5">
-        <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
-          Your email
-        </label>
+        // <label class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">
+        //   Your email
+        // </label>
         <input
           type="text"
           placeholder="Service Name"
@@ -70,7 +69,7 @@ function AddServiceForm({ addService, isEditing, handleUpdate, serviceData }) {
         bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none
         focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5
         text-center dark:bg-blue-600 dark:hover:bg-blue-700
-        dark:focus:ring-blue-800">{isEditing ? "Update Service" : "Add Service"}
+        dark:focus:ring-blue-800">{isEditing ? "Update Service" : "Add Task"}
       </button>
     </form>
   );
