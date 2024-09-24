@@ -35,7 +35,7 @@ function ServiceManager() {
   return (
     <div className="border-2">
       <h1 className="text-2xl font-bold text-center border-2 p-6 bg-slate-300 rounded-full">
-        Healthcare Services
+        Add Task
       </h1>
       <AddServiceForm
         addService={addService}
